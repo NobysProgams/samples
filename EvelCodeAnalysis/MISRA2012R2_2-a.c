@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 typedef struct ST_S2RECT_SAMP_ {
   short s_lft;
   short s_top;
