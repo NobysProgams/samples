@@ -14,6 +14,10 @@ int temp_func_c( void ) {
   ST_S2RECT_SAMP st_samp = {0};
   ST_S2RECT_SAMP st_samp2 = {1};
   st_samp = st_samp2;
+  st_samp.s_lft = 1U;
+  st_samp.s_top = 2U;
+  st_samp2.s_lft = st_samp.s_lft;
+  st_samp2.s_top = st_samp.s_top;
   
   return result;
 }
