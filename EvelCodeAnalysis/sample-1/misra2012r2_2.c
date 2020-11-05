@@ -17,3 +17,9 @@ int temp_func_c( void ) {
   
   return result;
 }
+
+void main()
+{
+    temp_func_c();
+    return;
+}
