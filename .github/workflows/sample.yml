@@ -1,0 +1,12 @@
+name: TEST
+
+on: 
+  repository_dispatch:
+    types: [apple]
+
+jobs:
+  hoge:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "yhaaa"
+      
